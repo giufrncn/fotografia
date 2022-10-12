@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: normal;
+ }
+ body {
+   font-family: 'Roboto Mono', monospace;
+ }
+ header nav {
+   margin: 3rem;
+ }
+ header nav .col-12{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   font-size:medium;
+   padding-left: 6.5rem;
+ }
+ header nav .col-12 section h6{
+   font-size: small;
+   padding-top: 0.3rem;
+ }
+ img {
+    padding: 1rem;
+    width: 800px;
+ }
+ .altas img{
+    width: 400px;
+ }
+ .altas {
+    display: flex;
+    justify-items: center;
+ }
+ .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8rem;
+ }
